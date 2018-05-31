@@ -1,0 +1,116 @@
+
+.nav {
+    background: #000;
+    width: 100%;
+    border-top: solid 3px;
+    border-top-color: mediumvioletred;
+}
+
+.nav__label {
+    color: #fff;
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: inherit;
+}
+
+.menu-item-has-children:hover > ul {
+    display: block;
+}
+
+.nav__label,
+.nav__sub-label {
+    cursor: pointer;
+}
+
+nav > ul {
+    background: #000;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav > ul,
+[id^="toggle"] {
+    display: none;
+}
+
+[id^="toggle"]:checked + ul {
+    display: block;
+}
+
+li {
+    display: block;
+}
+
+.nav a,
+.nav__sub-label {
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+li li .nav a,
+li li .nav__sub-label {
+    padding: 10px 10px 10px 30px;
+}
+
+.nav a:hover,.nav a:active,
+.nav__sub-label:hover {
+    background: #666;
+}
+
+/*********************/
+/*Search Menu Styling*/
+/*********************/
+
+
+.nav > .search {
+    position: inherit;
+    float: none;
+    display: block;
+    top: 0px;
+    margin: 0 auto;
+}
+
+
+@media all and (min-width : 992px) {
+    
+    .menu-grid{
+    display: grid;
+    grid-template-columns: auto 300px;
+    }
+    
+    .nav > .nav__label {
+        display: none;
+    }
+
+    .nav > ul {
+        display: block;
+    }
+
+    .nav > ul > li {
+        display: inline-block;
+        position: relative;
+    }
+
+    li ul {
+        position: absolute;
+    }
+
+    li li .nav a,
+    li li .nav__sub-label {
+        padding: 10px 20px;
+    }
+    
+    .nav > .search {
+    position: relative;
+    float: right;
+    top: -7px;
+
+    }
+}
