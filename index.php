@@ -7,7 +7,11 @@
 			<h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
 
 			<?php get_template_part('loop'); ?>
-
+            
+            <h1><?php _e( 'Featured Posts', 'html5blank' ); ?></h1>
+            
+            <?php get_template_part('loop_featured'); ?>
+            
 			<?php get_template_part('pagination'); ?>
 
 		</section>

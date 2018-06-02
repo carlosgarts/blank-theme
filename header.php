@@ -42,10 +42,11 @@
 
 					<!-- nav -->
 					<nav class="nav" role="navigation">
+                            <?php get_template_part('searchform'); ?>
                             <label for="toggle" class="nav__label">Menu</label>
                             <input id="toggle" class="nav__toggle" type="checkbox">
-                            <?php get_template_part('searchform'); ?>
                             <?php html5blank_nav(); ?>
+                            
 					</nav>
 					<!-- /nav -->
 
