@@ -1,10 +1,31 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
+                <div class="footer-grid">
+                    <div class="footer-column">
+                        <div class="footer-title">ABOUT US</div>
+                        <div>Logo</div>
+                        <div class="footer-p">This teme is specialized in flexible magazine WordPress theme for modern online magazines, dynamic news websites, professional blogs and other editorial websites from any content genre.</div>
+                    </div>
+                    <div class="footer-column">
+                        <div class="footer-title">RECENT POSTS</div>
+                        <div>
+                            This teme is specialized in flexible magazine WordPress theme for modern online magazines, dynamic news websites, professional blogs and other editorial websites from any content genre.
+                        </div>
+                        <div class="footer-title">SEARCH POST...</div>
+                        <?php get_template_part('searchform'); ?>
+                    </div>
+                    <div class="footer-column">
+                        <div class="footer-title">OUR TEAM</div>
+                        <div>Team Tag</div>
+                        <div>Team Tag</div>
+                        <div>Team Tag</div>
+                    </div>
+                </div>
 
+                
 				<!-- copyright -->
 				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
+					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Designed by', 'html5blank'); ?> <a href="https://ve.linkedin.com/in/carlos-fernando-gamez-pi%C3%B1a-4b87a8161?trk=prof-samename-name" title="HTML5 Blank">Carlos Gamez</a>.
 				</p>
 				<!-- /copyright -->
 

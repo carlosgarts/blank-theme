@@ -124,6 +124,9 @@ function html5blank_styles()
     wp_register_style('responsive-menu', get_template_directory_uri() . '/css/responsive-menu.css', array(), '1.5', 'all');
     wp_enqueue_style('responsive-menu'); // Enqueue it!
     
+    wp_register_style('footer', get_template_directory_uri() . '/css/footer.css', array(), '1.0', 'all');
+    wp_enqueue_style('footer'); // Enqueue it!
+    
      wp_register_style('searchform', get_template_directory_uri() . '/css/searchform.css', array(), '1.5', 'all');
     wp_enqueue_style('searchform'); // Enqueue it!
 

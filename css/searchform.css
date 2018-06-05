@@ -1,6 +1,6 @@
 .search{
- display: block;
- width: 250px;
+     display: block;
+     width: 250px;
 }
 
 .search-input{
@@ -12,7 +12,7 @@
 }
 
 .search-submit {
-    display: inline-block;
+  display: inline-block;
   padding: 6px 10px;
   margin-top: 8px;
   margin-right: 16px;
