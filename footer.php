@@ -16,9 +16,16 @@
                     </div>
                     <div class="footer-column">
                         <div class="footer-title">OUR TEAM</div>
-                        <div>Team Tag</div>
-                        <div>Team Tag</div>
-                        <div>Team Tag</div>
+                        <!--Team tags-->
+                        <div class="team-tag">
+                            <div class="tt-image">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/member.jpg" alt="Logo">
+                            </div>
+                            <div class="tt-info">
+                                <a class="tt-name">Name Second</a>
+                                <div class="tt-detail">my position</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

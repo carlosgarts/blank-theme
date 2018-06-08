@@ -29,3 +29,33 @@ footer {
     font-size: 13px;
     text-align: left;
 }
+
+/*Team tags*/
+
+.team-tag {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    grid-gap: 15px;
+}
+
+.tt-image {
+    
+}
+
+.tt-image > img{
+    width: 70px;
+}
+
+.tt-info {
+    margin: auto 0;
+}
+
+.tt-name{
+    font-size: 17px;
+    display: block;
+}
+
+.tt-detail{
+    font-size: 14px; 
+    display: block;
+}
